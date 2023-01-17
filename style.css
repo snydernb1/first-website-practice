@@ -1,0 +1,109 @@
+strong {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    border-bottom: 3px solid black;
+    height: 75px;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    height: 75px;
+}
+.titleImage {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 700px;
+    padding-bottom: 10px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iteration {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 700px;
+    font-size: x-small
+}
+.textWrap {
+    width: 200px;
+}
+form {
+    padding-top: 50px;
+}
+fieldset {
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    border: 2px solid;
+}
+legend {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label,
+input,
+textarea,
+button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+}
+.formCenter {
+    position: absolute;
+    top: 20%;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 700px;
+    border: 2px solid;
+    height: 500px;
+}
+ul {
+    position: relative;
+    top: 25%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 30%;
+    justify-content: center;
+    width: 1050px;
+    margin: 0 auto;
+}
+.img4 {
+    width: 500px;
+    height: 250px;
+}
+.imageLabel {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    white-space: nowrap;
+    top: 30px;
+    background-color: white;
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}

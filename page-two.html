@@ -6,40 +6,41 @@
 
 <body>
 
-    <div>
+    <strong>
         <a href="./page-one.html">Page One</a>
         <a href="./page-two.html">Page Two</a>
         <a href="./page-three.html">Page Three</a>
         <a href="./page-four.html">Page Four</a>
-    </div>
+    </strong>
 
     <form action="/form-handling-url" method="post">
         <fieldset>
             <legend>PROJECT FEEDBACK</legend>
+                <div class="formCenter">
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="first_name" id="firstName">
+                    </div>
 
-            <div>
-                <label for="firstName">First Name</label>
-                <input type="text" name="first_name" id="firstName">
-            </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
 
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-            </div>
+                    <div>
+                        <label for="feedback">Feedback</label>
+                        <textarea name="feedback" id="feedback"></textarea>
+                    </div>
 
-            <div>
-                <label for="feedback">Feedback</label>
-                <textarea name="feedback" id="feedback"></textarea>
-            </div>
+                    <div>
+                        <label for="robot">I am not a robot</label>
+                        <input type="checkbox" name="robot" id="robot">
+                    </div>
 
-            <div>
-                <label for="robot">I am not a robot</label>
-                <input type="checkbox" name="robot" id="robot">
-            </div>
-
-            <div>
-                <button type="submit">Submit</button>
-            </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
         </fieldset>
     </form>
 
